@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: space;
+    font-family: 'Space Mono', monospace;
+}
+
+StrongCyan {
+   color: hsl(172, 67%, 45%); 
+} 
+
+VeryDarkCyan {
+    color:hsl(183, 100%, 15%);
+} 
+
+DarkGrayishCyan {
+    color: hsl(186, 14%, 43%);
+} 
+
+GrayishCyan {
+    color: hsl(184, 14%, 56%);
+}
+
+LightGrayishCyan {
+    color: hsl(185, 41%, 84%);
+}
+
+VeryLightGrayishCyan {
+    color: hsl(189, 41%, 97%);
+} 
+
+White {
+    color: hsl(0, 0%, 100%);
+}
+
+.body {
+    background-color: hsl(185, 41%, 84%);
+}
+
+.logo {
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.fundoBranco {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+input {
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.bill {
+    color: hsl(186, 14%, 43%);
+    padding: 20px 30px 20px 30px;
+}
+
+.bill input {
+    background-color: hsl(189, 41%, 97%);
+    border-color: rgba(0, 0, 0, 0.0);
+    background-image: url(/images/icon-dollar.svg);
+    background-repeat: no-repeat;
+    background-position: 5% 50%;
+    text-align: end;
+    color: hsl(183, 100%, 15%);
+    font-size: 20px;
+    padding-right: 10px;
+    outline: none;
+}
+
+.selectTip  {
+    color: hsl(186, 14%, 43%);
+    padding: 10px 30px 20px 30px;
+}
+
+.numberPeaple {
+    color: hsl(186, 14%, 43%);
+    padding: 10px 30px 20px 30px;
+}
+
+.numberPeaple input {
+    background-color: hsl(189, 41%, 97%);
+    border-color: rgba(0, 0, 0, 0.0);
+    background-image: url(/images/icon-person.svg);
+    background-repeat: no-repeat;
+    background-position: 5% 50%;
+    text-align: end;
+    color: hsl(183, 100%, 15%);
+    font-size: 20px;
+    padding-right: 10px;
+    outline: none;
+}
+
+.custom, .selectTip button {
+    height: 40px;
+    width: 40%;
+    border-radius: 5px;
+    margin: 8px 0 8px 0;
+    background-color: hsl(183, 100%, 15%);
+    color: hsl(0, 0%, 100%);
+    font-size: 18px;
+    border-color: rgba(0, 0, 0, 0.0);
+}
+
+.espec {
+    background-color: hsl(189, 41%, 97%);
+    color: hsl(186, 14%, 43%);
+    text-align: end;
+    padding-right: 10px;
+}
+
+.greenArea {
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 20px;
+    margin: 10px 20px 10px 20px;
+    padding: 30px 20px 20px 20px;
+    color: hsl(0, 0%, 100%);
+
+}
+
+.title {
+    font-size: 16px;
+}
+
+.description {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.5);
+    padding-bottom: 30px;
+}
+
+.value {
+    font-size: 28px;
+    color: hsl(172, 67%, 45%); 
+    position: absolute;
+}
+
+.um {
+    margin-top: -70px;
+    margin-left: 50%;
+}
+
+.dois {
+    margin-top: -70px;
+    margin-left: 50%;
+}
+
+#btn {
+    width: 100%;
+    background-color: hsl(172, 67%, 45%);
+    border-color: rgba(0, 0, 0, 0.0);
+    border-radius: 5px;
+    color: hsl(183, 100%, 15%);
+    padding: 10px 0 10px 0;
+    font-size: 20px;
+}
+
+.selectTip > button:hover  {
+    background-color: hsl(172, 67%, 45%);
+    color: hsl(183, 100%, 15%);
+}
+
+@media (min-width: 1440px) {
+
+    .fundoBranco {
+        height: 500px;
+        width: 800px;
+        margin-left: 50%;
+        transform: translate(-50%);
+    }
+
+    .greenArea {
+        height: 400px;
+        width: 400px;
+        margin-top: -30%;
+        margin-left: 72%;
+        transform: translate(-50%, -50%);
+    }
+
+    .description {
+        font-size: 20px;
+    }
+
+    .value {
+        font-size: 36px;
+    }
+
+    .um {
+        margin-top: -85px;
+    }
+    
+    .dois {
+        margin-top: -70px;
+    }
+
+    .bill {
+        padding-top: 50px;
+    }
+
+
+    .bill input {
+        width: 45%;
+    }
+
+    .selectTip button {
+        width: 14.13%;
+    }
+
+    .selectTip {
+        margin-top: 50px;
+    }
+
+    .custom {
+        width: 14.13%;
+    }
+
+    #vinteecinco  {
+        display: block;
+    }
+
+    #cinquenta {
+        position: absolute;
+        margin-left: 114px;
+        margin-top: -48px;
+        width: 13.1%;
+    }
+
+    .custom {
+        width: 13%;
+        position: absolute;
+        margin-left: 229px;
+        margin-top: -48px;
+    }
+
+
+    .numberPeaple input {
+        width: 45%;
+    }
+
+    .numberPeaple {
+        margin-top: 50px;
+    }
+
+    #btn {
+        margin-top: 120px;
+    }
+
+
+}

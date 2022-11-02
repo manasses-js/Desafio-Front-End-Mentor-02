@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+
+
+</head>
+<body class="body">
+
+  <div class="logo">
+
+    <img src="/images/logo.svg" alt="Logo do site: Splitter">
+
+  </div>
+
+  <div class="fundoBranco">
+
+    <div class="bill">
+        <p>Bill</p>
+        <input id="bill" type="text" value="">
+    </div>
+
+      <div class="selectTip">
+        <p>Select Tip %</p> 
+  
+        <button id="cinco" value="0.05">5%</button>
+        <button id="dez" value="0.10">10%</button>
+        <button id="quinze" value="0.15">15%</button>
+        <button id="vinteecinco" value="0.25">25%</button>
+        <button id="cinquenta" value="0.50">50%</button>
+    
+        <input class="custom espec" type="text" placeholder="Custom" value="">
+    
+      </div>
+        
+      <div class="numberPeaple">
+        <p>Number of People</p> 
+        <input id="nop" type="text" value="">
+      </div>
+
+  
+    <main class="greenArea">
+  
+      <div>
+        <h6 class="title">Tip Amount</h6>
+        <p class="description">/ person</p>
+        <p class="value um">$0.00</p>
+      </div>
+
+      <div>
+        <h6 class="title">Total</h6>
+        <p class="description">/ person</p>
+        <p class="value dois">$0.00</p>
+      </div>
+
+  
+      <button id="btn">RESET</button>
+  
+    </main>
+
+  </div>
+
+
+
+  <script src="/main.js"></script>
+
+</body>
+</html>
